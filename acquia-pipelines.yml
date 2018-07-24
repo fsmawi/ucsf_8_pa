@@ -9,6 +9,7 @@ events:
       - setup:
           type: script
           script:
+            - echo "test"
             - composer install -v
       - install:
           type: script
