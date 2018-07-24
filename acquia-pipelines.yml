@@ -11,6 +11,7 @@ events:
           script:
             - echo "test"
             - composer install -v
+            - sleep 500
       - install:
           type: script
           script:
